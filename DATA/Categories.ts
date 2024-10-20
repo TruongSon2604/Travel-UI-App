@@ -21,3 +21,6 @@ const destinationCategories = [
     },
 ]
 export default destinationCategories;
+
+
+

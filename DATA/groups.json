@@ -1,0 +1,37 @@
+[
+  {
+    "id": "1",
+    "name": "Holiday Travel Agency",
+    "image": "https://images.unsplash.com/photo-1715276611617-21d4395134f1?w=310&auto=format&fit=crop&q=60&ixlib=rb-4.0.3",
+    "rating": 4.7,
+    "reviews": 1450
+  },
+  {
+    "id": "2",
+    "name": "Happy Tour Planners",
+    "image": "https://images.unsplash.com/photo-1715276611617-21d4395134f1?w=310&auto=format&fit=crop&q=60&ixlib=rb-4.0.3",
+    "rating": 6.8,
+    "reviews": 1201
+  },
+  {
+    "id": "3",
+    "name": "Royal Tours and Travels",
+    "image": "https://images.unsplash.com/photo-1519337265831-281ec6cc8514?w=310&auto=format&fit=crop&q=60&ixlib=rb-4.0.3",
+    "rating": 9.0,
+    "reviews": 520
+  },
+  {
+    "id": "4",
+    "name": "Royal Tours and Travels 2",
+    "image": "https://images.unsplash.com/photo-1715276611617-21d4395134f1?w=310&auto=format&fit=crop&q=60&ixlib=rb-4.0.3",
+    "rating": 9.0,
+    "reviews": 520
+  },
+  {
+    "id": "5",
+    "name": "Royal Tours and Travels 3",
+    "image": "https://images.unsplash.com/photo-1519337265831-281ec6cc8514?w=310&auto=format&fit=crop&q=60&ixlib=rb-4.0.3",
+    "rating": 9.0,
+    "reviews": 520
+  }
+]

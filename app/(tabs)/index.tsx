@@ -5,8 +5,9 @@ import {
   Image,
   TouchableOpacity,
   TextInput,
+  ScrollView,
 } from "react-native";
-import React from "react";
+import React, { useState } from "react";
 import { Stack } from "expo-router";
 import { Ionicons } from "@expo/vector-icons";
 import Colors from "@/constants/Colors";
@@ -14,8 +15,36 @@ import Colors from "@/constants/Colors";
 import { useHeaderHeight } from "@react-navigation/elements";
 import CategoryButton from "@/Components/CategoryButton";
 
+import Listing from "@/Components/Listing";
+
+import Listing2Colum from "@/Components/Listing2Colum";
+import GruopListing from "@/Components/GruopListing";
+
+import ListingData from "@/DATA/destination.json";
+import GroupData from "@/DATA/groups.json";
+// import Instance1 from "@/Components/Instance1";
+import Slider2 from "@/Components/Slider2";
+
+//thu vie//
+import { useSafeAreaInsets } from "react-native-safe-area-context";
+//
+
 const Page = () => {
   const headerHeight = useHeaderHeight();
+
+  const [Category, setCategory] = useState("All");
+  const onCatChanged = (category: string) => {
+    setCategory(category);
+    console.log("category:", category);
+  };
+  //
+  // const [Instance, setInstance] = useState("vidu");
+  // const onchangeInstance = (ins: string) => {
+  //   setInstance(ins);
+  //   console.log("istance", Instance);
+  // };
+
+  //
   return (
     <>
       <Stack.Screen
@@ -51,24 +80,34 @@ const Page = () => {
         }}
       />
       <View style={[styles.container, { paddingTop: headerHeight }]}>
-        <Text style={styles.headingTxt}>Explore Beautiful this world!</Text>
-        <View style={styles.searchSectionWrapper}>
-          <View style={styles.searchBar}>
-            <Ionicons
-              name="search"
-              size={18}
-              style={{ marginRight: 5 }}
-              color={Colors.black}
-            />
-            <TextInput placeholder="Search..." placeholderTextColor="gray" />
+        <ScrollView showsVerticalScrollIndicator={false}>
+          <Text style={styles.headingTxt}>Explore Beautiful this world!</Text>
+          <Slider2 />
+          <View style={styles.searchSectionWrapper}>
+            <View style={styles.searchBar}>
+              <Ionicons
+                name="search"
+                size={18}
+                style={{ marginRight: 5 }}
+                color={Colors.black}
+              />
+              <TextInput placeholder="Search..." placeholderTextColor="gray" />
+            </View>
+            <TouchableOpacity style={styles.filterBtn}>
+              <Ionicons name="options" size={28} color={Colors.white} />
+            </TouchableOpacity>
           </View>
-          <TouchableOpacity style={styles.filterBtn}>
-            <Ionicons name="options" size={28} color={Colors.white} />
-          </TouchableOpacity>
-        </View>
-        <CategoryButton/>
-      </View>
 
+          <CategoryButton onCategoryChanged={onCatChanged} />
+
+          <Listing listings={ListingData} category={Category} />
+
+          <GruopListing listings={GroupData} />
+
+          {/* <Instance1 onchangeInstance1={onchangeInstance} /> */}
+          <Listing2Colum listings={ListingData} category={Category} />
+        </ScrollView>
+      </View>
     </>
   );
 };

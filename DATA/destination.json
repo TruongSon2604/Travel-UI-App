@@ -1,0 +1,68 @@
+[
+  {
+    "id": "1",
+    "name": "Wool Sweater",
+    "image": "https://images.unsplash.com/photo-1682687982183-c2937a74257c?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTZ8fGRlc3RpbmF0aW9ufGVufDB8fDB8fHww",
+    "description": "Escape to the ultimate tropical paradise retreat with",
+    "rating": 4.8,
+    "price": "17.77",
+    "duration": "3",
+    "location": "Pacific Ocean",
+    "category": "Beaches"
+  },
+  {
+    "id": "2",
+    "name": "Hat Summer",
+    "image": "https://images.unsplash.com/photo-1682687981630-cefe9cd73072?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fGRlc3RpbmF0aW9ufGVufDB8fDB8fHww",
+    "description": "Escape to the ultimate tropical paradise retreat with",
+    "rating": 4.8,
+    "price": "15.0",
+    "duration": "3",
+    "location": "Pacific Ocean",
+    "category": "Beaches"
+  },
+  {
+    "id": "3",
+    "name": "Tropical Paradise Resort",
+    "image": "https://images.unsplash.com/photo-1682687981630-cefe9cd73072?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fGRlc3RpbmF0aW9ufGVufDB8fDB8fHww",
+    "description": "Escape to the ultimate tropical paradise retreat with",
+    "rating": 4.8,
+    "price": "15.0",
+    "duration": "3",
+    "location": "Pacific Ocean",
+    "category": "Beaches"
+  },
+  {
+    "id": "4",
+    "name": "Tropical Paradise Resort",
+    "image": "https://images.unsplash.com/photo-1682687981603-ae874bf432f2?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjB8fGRlc3RpbmF0aW9ufGVufDB8fDB8fHww",
+    "description": "Escape to the ultimate tropical paradise retreat with",
+    "rating": 4.8,
+    "price": "150",
+    "duration": "3",
+    "location": "Pacific Ocean",
+    "category": "Mountains"
+  },
+  {
+    "id": "5",
+    "name": "Tropical Paradise Resort",
+    "image": "https://images.unsplash.com/photo-1682687981630-cefe9cd73072?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fGRlc3RpbmF0aW9ufGVufDB8fDB8fHww",
+    "description": "Escape to the ultimate tropical paradise retreat with",
+    "rating": 4.8,
+    "price": "150",
+    "duration": "3",
+    "location": "Pacific Ocean",
+    "category": "Cities"
+  },
+  {
+    "id": "6",
+    "name": "Tropical Paradise Resort",
+    "image": "https://images.unsplash.com/photo-1682687981603-ae874bf432f2?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjB8fGRlc3RpbmF0aW9ufGVufDB8fDB8fHww",
+    "description": "Escape to the ultimate tropical paradise retreat with",
+    "rating": 4.8,
+    "price": "150",
+    "duration": "3",
+    "location": "Pacific Ocean",
+    "category": "Forests"
+  }
+]
